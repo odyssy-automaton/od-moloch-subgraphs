@@ -1,6 +1,6 @@
 specVersion: 0.0.1
 description: A community DAO focused on funding dApp development and memes, so meta.
-repository: https://github.com/MolochVentures/moloch-monorepo/
+repository: https://github.com/odyssy-automaton/mc-dao-kovan-subgraph/
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,7 +8,7 @@ dataSources:
     name: Moloch
     network: kovan
     source:
-      address: "0xeaac3072cf777f4e75bfbe83b137e2bfdf2700ba"
+      address: "0x8cc93fadc8632f5bd4939ebd2fa7867ce97b28a7"
       abi: Moloch
     mapping:
       kind: ethereum/events
