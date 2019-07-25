@@ -1,14 +1,14 @@
 specVersion: 0.0.1
-description: A community DAO focused on funding dApp development and memes, so meta.
-repository: https://github.com/odyssy-automaton/mc-dao-kovan-subgraph/
+description: Yang Gang DAO.
+repository: https://github.com/odyssy-automaton/yangdao-graph
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: Moloch
-    network: kovan
+    network: mainnet
     source:
-      address: "0x8cc93fadc8632f5bd4939ebd2fa7867ce97b28a7"
+      address: "0xb3c02f093e6140ed2ad91be66b302f938cd8434f"
       abi: Moloch
     mapping:
       kind: ethereum/events
