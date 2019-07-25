@@ -4,10 +4,10 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ odyssy-automaton/metacarteldaokovan",
-    "create-local": "graph create --node http://localhost:8020/ odyssy-automaton/metacarteldaokovan",
-    "remove-local": "graph remove --node http://localhost:8020/ odyssy-automaton/metacarteldaokovan",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 odyssy-automaton/metacarteldaokovan"
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ odyssy-automaton/yangdao-graph",
+    "create-local": "graph create --node http://localhost:8020/ odyssy-automaton/yangdao-graph",
+    "remove-local": "graph remove --node http://localhost:8020/ odyssy-automaton/yangdao-graph",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 odyssy-automaton/yangdao-graph"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.12.0",
