@@ -1,6 +1,6 @@
 specVersion: 0.0.1
-description: Yang Gang DAO.
-repository: 'https://github.com/odyssy-automaton/yangdao-graph'
+description: Orochi DAO.
+repository: 'https://github.com/odyssy-automaton/orochi-dao-graph'
 schema:
   file: schema.graphql
 dataSources:
@@ -8,7 +8,7 @@ dataSources:
     name: Moloch
     network: mainnet
     source:
-      address: '0xb3c02f093e6140ed2ad91be66b302f938cd8434f'
+      address: '0x9298160D49e0BccE29309dfD5d72069242233fd5'
       abi: Moloch
     mapping:
       kind: ethereum/events
