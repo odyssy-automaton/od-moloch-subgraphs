@@ -4,10 +4,10 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ <org-name>/<graph-name>",
-    "create-local": "graph create --node http://localhost:8020/ <org-name>/<graph-name>",
-    "remove-local": "graph remove --node http://localhost:8020/ <org-name>/<graph-name>",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 <org-name>/<graph-name>"
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ odyssy-automaton/trojandao",
+    "create-local": "graph create --node http://localhost:8020/ odyssy-automaton/trojandao",
+    "remove-local": "graph remove --node http://localhost:8020/ odyssy-automaton/trojandao",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 odyssy-automaton/trojandao"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.12.0",

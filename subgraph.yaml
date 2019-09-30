@@ -8,7 +8,7 @@ dataSources:
     name: Moloch
     network: mainnet
     source:
-      address: "<contract address>"
+      address: "0xcc7dcdb700eed457c8180406d7d699877f4eee24"
       abi: Moloch
     mapping:
       kind: ethereum/events
