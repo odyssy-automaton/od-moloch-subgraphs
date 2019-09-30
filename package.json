@@ -1,13 +1,13 @@
 {
-  "name": "orochidaograph",
+  "name": "molochclonegraph",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ odyssy-automaton/orochidao",
-    "create-local": "graph create --node http://localhost:8020/ odyssy-automaton/orochidao",
-    "remove-local": "graph remove --node http://localhost:8020/ odyssy-automaton/orochidao",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 odyssy-automaton/orochidao"
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ odyssy-automaton/daohaus-macaw-dao",
+    "create-local": "graph create --node http://localhost:8020/ odyssy-automaton/daohaus-macaw-dao",
+    "remove-local": "graph remove --node http://localhost:8020/ odyssy-automaton/daohaus-macaw-dao",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 odyssy-automaton/daohaus-macaw-dao"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.12.0",
