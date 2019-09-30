@@ -8,13 +8,15 @@ Each subgraph is in a branch in this repo. Moloch contract and Graph specific de
 
 1. Create a new subgraph on you TheGraph dashboard.
 
-2. Checkout a new branch with the name of the moloch
+2. Clone and yarn install this repo.
+
+3. Checkout a new branch with the name of the moloch
 
 ```bash
 git checkout -b moloch/double-dog-dare-dao
 ```
 
-3. Modify subgraph.yaml with new moloch contract address on line 11.
+5. Modify subgraph.yaml with new moloch contract address on line 11.
 
 ```yaml
 source:
@@ -22,7 +24,7 @@ source:
   abi: Moloch
 ```
 
-4. Modidy the package.json scripts to point at the new graph created in step 1.
+6. Modidy the package.json scripts to point at the new graph created in step 1.
 
 ```json
   "scripts": {
@@ -35,7 +37,7 @@ source:
   },
 ```
 
-5. Once you're authenticated into the subgraph dashboard you can deploy with the graph cli:
+7. Once you're authenticated into the subgraph dashboard you can deploy with the graph cli:
 
 ```bash
 yarn codegen && yarn build && yarn deploy
