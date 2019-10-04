@@ -69,6 +69,14 @@ yarn codegen && yarn build && yarn deploy
         "moloch": "0xf5dbdb4ead400702bdae82a91a14998a1aaccfba",
         "title": "Osaka Interface DAO"
       }
+           {
+        "moloch": "0xf5dbdb4ead400702bdae82a91a14998a1aaccfba",
+        "title": "Osaka Interface DAO"
+      },
+      {
+        "moloch": "0xbd6fa666fbb6fdeb4fc5eb36cdd5c87b069b24c1",
+        "title": "Raid Guild"
+      },
     ]
   }
 }
