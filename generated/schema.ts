@@ -495,13 +495,21 @@ export class Member extends Entity {
     this.set("isActive", Value.fromBoolean(value));
   }
 
-  get highestIndexYesVote(): BigInt {
+  get highestIndexYesVote(): BigInt | null {
     let value = this.get("highestIndexYesVote");
-    return value.toBigInt();
+    if (value === null) {
+      return null;
+    } else {
+      return value.toBigInt();
+    }
   }
 
-  set highestIndexYesVote(value: BigInt) {
-    this.set("highestIndexYesVote", Value.fromBigInt(value));
+  set highestIndexYesVote(value: BigInt | null) {
+    if (value === null) {
+      this.unset("highestIndexYesVote");
+    } else {
+      this.set("highestIndexYesVote", Value.fromBigInt(value as BigInt));
+    }
   }
 
   get tokenTribute(): BigInt {
