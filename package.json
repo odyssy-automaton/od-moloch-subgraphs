@@ -7,7 +7,8 @@
     "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ odyssy-automaton/pillar-ambassador-temp",
     "create-local": "graph create --node http://localhost:8020/ odyssy-automaton/pillar-ambassador-temp",
     "remove-local": "graph remove --node http://localhost:8020/ odyssy-automaton/pillar-ambassador-temp",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 odyssy-automaton/pillar-ambassador-temp"
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 odyssy-automaton/pillar-ambassador-temp",
+    "auth": "graph auth https://api.thegraph.com/deploy/ 4d48051a968a42d286c8e4aab0b29454"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.15.0",
